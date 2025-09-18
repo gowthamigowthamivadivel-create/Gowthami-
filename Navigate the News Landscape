@@ -1,0 +1,105 @@
+1. INTRODUCTION	
+   The **Navigate the News Landscape**is a digital inventory management system designed to help businesses efficiently manage their stock, sales, and purchases. In today’s competitive market, keeping accurate records of products and monitoring stock levels is essential to ensure smooth business operations. Manual inventory tracking is often time-consuming, error-prone, and difficult to maintain. The Store Manager system addresses these challenges by providing an automated,-friendly solution for managing store activities.
+
+PROJECT TITLE 
+Navigate News: Landscape 
+
+Team Id: NM2025TMID48927
+Team Leader: Gowthami . V & gowthamigowthamivadivel@gmail.com
+Team Members
+Hamasri. N & hamasrisri4343@gmail.com
+Iniya. M & iniya6805@gamil.com
+Kalai Nisha. M & nishakala33@gmail.com
+Kamali. B & kamaliboopathi61@gmaik.com
+
+
+2. PROJECT OVERVIEW
+The **Navigate the News Landscape** is a system designed to help businesses keep track of products, stock levels, sales, and suppliers. It ensures that the store owner always knows what’s available, when to reorder, and how the business is performing.
+---
+OBJECTIVES
+ * Maintain a digital record of all products.
+ * Track stock in/out (purchases and sales).
+ * Generate low-stock alerts.
+ * Record suppliers and customer transactions.
+ * Provide reports for decision-making.
+---
+
+
+ FEATURES
+1. Product Management
+ * Add, edit, delete products.
+ * Assign product codes, categories, and price.
+2. Inventory Tracking
+ * Real-time stock updates when sales/purchases occur.
+ * Minimum stock level alerts.
+ * Batch management (optional).
+3. Sales & Purchases
+ * Record daily sales.
+ * Record purchases from suppliers.
+ * Auto-update stock levels.
+4. Suppliers & Customers
+ * Maintain supplier details (name, contact, products supplied).
+  * Maintain customer details for frequent buyers.
+5. Reports & Analytics
+ * Sales report (daily, weekly, monthly).
+ * Inventory report (current stock, low stock).
+ * Profit/Loss report.
+---
+MODULES
+1. **Login & User Management**
+2. **Dashboard (summary view)**
+3. **Products Module**
+4. **Inventory Module**
+5. **Sales & Purchase Module**
+6. **Reports Module**
+---
+3. ARCHITECTURE
+ * Frontend: HTML, CSS, JavaScript, React/Angular/Vue
+ * Backend: Node.js / Django / Flask
+ * Database: MySQL / MongoDB / PostgreSQL
+
+4. SETUP INSTRUCTIONS
+prerequisites
+1. Node.js [Download here](https://nodejs.org/)
+   * Verify installation:
+     ```bash
+     node -v
+     npm -v
+     ```
+
+2. **MongoDB** (local or cloud using [MongoDB Atlas](https://www.mongodb.com/atlas))
+   * Verify installation (local):
+     ```bash
+     mongod --version
+     ```
+   * Start MongoDB service:
+     ```bash
+     mongod
+     ```
+3. **Code Editor** → [VS Code](https://code.visualstudio.com/)
+4. **Postman or cURL** → for API testing
+
+
+
+5. PROJECT STRUCTURE
+store-manager/
+ ├── server.js          # Entry point
+ ├── .env               # Config (DB URL, PORT)
+ ├── models/            # Mongoose schemas
+ │    └── Product.js
+ ├── routes/            # API routes
+ │    └── productRoutes.js
+ ├── controllers/       # Logic
+ │    └── productController.js
+ └── package.json
+
+
+
+
+6. FUTURE ENHANCEMENTS
+ * Barcode/QR code scanning.
+ * Mobile app integration.
+ * AI-powered stock prediction.
+ * Multi-store management.
+ * Cloud-based access.
+---
